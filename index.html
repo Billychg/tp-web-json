@@ -6,8 +6,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Students List</h1>
-    <ul id="students"></ul>
+    <div class="container">
+      <h1>Students List</h1>
+      <ul id="students"></ul>
+
+      <input type="text" id="addname" placeholder="Insérer un Prénom" />
+      <input type="text" id="addclass" placeholder="Insérer la classe" />
+      <input type="text" id="addscore" placeholder="Insérer un score" />
+
+      <button id="addstudent" onclick="addstudent()">Ajouter un élève</button>
+      <button id="rmline" onclick="removeline()">
+        Enlever la derniere ligne
+      </button>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>

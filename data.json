@@ -1,7 +1,7 @@
 {
   "students": [
-    { "id": 1, "name": "Alice", "score": 15 },
-    { "id": 2, "name": "Bob", "score": 12 },
-    { "id": 3, "name": "Charlie", "score": 18 }
+    { "id": 1, "name": "Alice", "class": "1", "score": 15 },
+    { "id": 2, "name": "Bob","class": "2", "score": 12 },
+    { "id": 3, "name": "Charlie","class": "3", "score": 18 }
   ]
 }
